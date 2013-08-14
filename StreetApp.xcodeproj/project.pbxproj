@@ -22,6 +22,7 @@
 		A57FE26017BB620900BD187C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57FE24417BB620900BD187C /* CoreData.framework */; };
 		A57FE26817BB620900BD187C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A57FE26617BB620900BD187C /* InfoPlist.strings */; };
 		A57FE26A17BB620900BD187C /* StreetAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FE26917BB620900BD187C /* StreetAppTests.m */; };
+		A59CA2FC17BB66FA0054E836 /* StreetAppStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A59CA2FB17BB66FA0054E836 /* StreetAppStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A57FE26517BB620900BD187C /* StreetAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "StreetAppTests-Info.plist"; sourceTree = "<group>"; };
 		A57FE26717BB620900BD187C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A57FE26917BB620900BD187C /* StreetAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StreetAppTests.m; sourceTree = "<group>"; };
+		A59CA2FB17BB66FA0054E836 /* StreetAppStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = StreetAppStoryboard.storyboard; path = UI/StreetAppStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 				A57FE25017BB620900BD187C /* AppDelegate.m */,
 				A57FE25517BB620900BD187C /* Images.xcassets */,
 				A57FE25217BB620900BD187C /* StreetApp.xcdatamodeld */,
+				A59CA2FA17BB66900054E836 /* UI */,
 				A57FE24717BB620900BD187C /* Supporting Files */,
 			);
 			path = StreetApp;
@@ -151,6 +154,14 @@
 				A57FE26617BB620900BD187C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A59CA2FA17BB66900054E836 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A59CA2FB17BB66FA0054E836 /* StreetAppStoryboard.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A59CA2FC17BB66FA0054E836 /* StreetAppStoryboard.storyboard in Resources */,
 				A57FE24B17BB620900BD187C /* InfoPlist.strings in Resources */,
 				A57FE25617BB620900BD187C /* Images.xcassets in Resources */,
 			);
@@ -445,6 +457,7 @@
 				A57FE26F17BB620900BD187C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A57FE27017BB620900BD187C /* Build configuration list for PBXNativeTarget "StreetAppTests" */ = {
 			isa = XCConfigurationList;
@@ -453,6 +466,7 @@
 				A57FE27217BB620900BD187C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
